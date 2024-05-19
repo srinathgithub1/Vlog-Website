@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    line-height: 1.4;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+nav ul i{
+    font-size: 20px;
+}
+ /* Hero section  */
+
+ header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .hero{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 55px;
+ }
+ .about{
+    width: 400px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .about h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+ }
+ .about p{
+    font-size: 25px;
+    color: rgb(97, 96, 96);
+ }
+ .image1{
+    width: 600px;
+    height: 380px;
+    background-image: url(./images/hero.png);
+    background-size: cover;
+    border-radius: 20%;
+ }
+
+ /* main */
+
+ main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .top-card{
+   width: 90%;
+ }
+ .container{
+    width:100%;
+    min-height: 250px;
+    display: flex;
+    gap: auto;
+    margin-bottom: 50px;
+ }
+ .container .image2{
+    width: 40%;
+    height: 250px;
+    background-image: url(./images/long-card.png);
+    background-size: cover;
+ }
+ .container .about-card{
+    width: 60%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 0px 65px;
+ }
+ .container .about-card h1{
+    font-size: 30px;
+ }
+ .about-card p{
+    font-size: 14px;
+    color:rgb(97, 96, 96);
+    opacity: 0.8;
+ }
+ .foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+ }
+ .foot a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+ }
+
+ .mid-card .card{
+    width:320px;
+    height: 380px;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 5px #ccc;
+    animation: box-shadow 2s ease-in-out 1s;
+ }
+ .card:hover{
+   box-shadow: 5px 10px 10px #ccc;
+ }
+ .image3{
+    width: 320px;
+    height: 180px;
+    background-image: url(./images/card1.png);
+    background-size: cover;
+ }
+.image4{
+   width: 320px;
+   height: 180px;
+   background-image: url(./images/card2.png);
+   background-size: cover;
+}
+.image5{
+   width: 320px;
+   height: 180px;
+   background-image: url(./images/card3.png);
+   background-size: cover;
+}
+ .card .about-card{
+    padding: 0 20px;
+ }
+ .card .about-card h1{
+    font-size: 20px;
+    margin: 12px 0;
+ }
+ .mid-card{
+   width: 90%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+ }
+
+ .bottom-card{
+   width: 90%;
+ }
+ .bottom-card .card{
+   min-height: 90vh;
+   width: 100%;
+   display: flex;
+   margin-bottom: 30px;
+ }
+ .image6{
+   background-image: url(./images/long-big-card.png);
+   width: 55%;
+   background-size: cover;
+ }
+ .bottom-card .about-card{
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 50px;
+   background-color: aliceblue;
+   gap: 10px;
+ }
+ .bottom-card .about-card h1{
+   font-size: 50px;
+   margin-bottom: 20px;
+}
+.bottom-card .about-card p{
+   font-size: 15px;
+   color: rgb(97, 96, 96);
+}
+.bottom-card .about-card a{
+   font-size: 15px;
+}
+
+.btn-more{
+   align-self: flex-end;
+   margin-right: 5%;
+   margin-bottom: 30px;
+}
+.btn-more button{
+   width: 120px;
+   height: 35px;
+   background-color: rgb(150, 38, 255);
+   color: white;
+   font-size: 15px;
+   font-weight: 700;
+   border: none;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+footer{
+   height: 80px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 5%;
+   border-top: 1px solid #ccc;
+}
+.contact{
+   font-size: 20px;
+   width: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+footer p{
+   font-weight: 500;
+}
+ 
