@@ -25,7 +25,19 @@ nav ul a{
     font-weight: 500;
 }
 nav ul i{
-    font-size: 20px;
+   font-size: 20px;
+}
+nav .contact i:hover{
+   opacity: 0.6;
+   cursor: pointer; 
+}
+footer i:hover{
+   opacity: 0.6;
+   cursor: pointer;  
+}
+nav ul i:hover{
+   opacity: 0.6;
+   cursor: pointer;
 }
  /* Hero section  */
 
@@ -233,6 +245,7 @@ footer .contact{
 footer p{
    font-weight: 500;
 }
+
 
 
 /* post css */
